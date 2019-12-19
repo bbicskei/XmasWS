@@ -12,7 +12,7 @@ body, html, div, main, header{
     height:100vh;
 }
 .days{
-    background-color: lightpink;
+    background-color: #e0c6e5;
     margin:5px;
     color: white;
     padding:2px;
@@ -20,8 +20,8 @@ body, html, div, main, header{
 .calendarheader{
     grid-column-start: 1;
     grid-column-end: -1;
-    background-color: lightskyblue;
-    background-image: url(duotone.png);
+    background-color: #e0c6e5;
+    background-image: url(duotone\ \(1\).png);
     background-size: cover;
     display: flex;
     align-items: flex-end;
