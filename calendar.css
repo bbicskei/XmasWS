@@ -1,15 +1,33 @@
 body, html, div, main, header{
     padding:0;
     margin:0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .calendar {
     display:grid;
     grid-template-columns:repeat(7, 1fr); /*repeat 7 times 1 fr*/
+    grid-template-rows: 1fr;
     grid-auto-rows: 14vw; 
-    grid-gap: 10px;
+    height:100vh;
 }
 .days{
     background-color: lightpink;
     margin:5px;
+    color: white;
+    padding:2px;
+}
+.calendarheader{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    background-color: lightskyblue;
+    background-image: url(duotone.png);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.space{
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
