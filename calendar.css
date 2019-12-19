@@ -1,0 +1,15 @@
+body, html, div, main, header{
+    padding:0;
+    margin:0;
+}
+
+.calendar {
+    display:grid;
+    grid-template-columns:repeat(7, 1fr); /*repeat 7 times 1 fr*/
+    grid-auto-rows: 14vw; 
+    grid-gap: 10px;
+}
+.days{
+    background-color: lightpink;
+    margin:5px;
+}
