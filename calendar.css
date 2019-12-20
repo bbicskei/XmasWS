@@ -10,12 +10,24 @@ body, html, div, main, header{
     grid-template-rows: 1fr;
     grid-auto-rows: 14vw; 
     height:100vh;
+    font-size: 30px;
+}
+
+h1{
+    color: white;
+   margin:10px;
 }
 .days{
     background-color: #e0c6e5;
     margin:5px;
     color: white;
     padding:2px;
+    background-size: cover;
+    background-image:url(duotone\ \(1\).png);
+    background-attachment: fixed;
+     box-shadow: 5px 5px blue;
+
+
 }
 .calendarheader{
     grid-column-start: 1;
@@ -25,9 +37,16 @@ body, html, div, main, header{
     background-size: cover;
     display: flex;
     align-items: flex-end;
+    background-attachment: fixed;
+    
 }
 .space{
     
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.days:nth-child(7n), 
+.days:nth-child(7n-1) /*minden megadott számú elemet fromáz*/{
+    background-color: blue;
+}
+
